@@ -3,7 +3,7 @@
  **
  * @author      Rafael Keramidas <ker.af>
  * @license     MIT
- * @source      https://github.com/keraf/NoCoin
+ * @source      https://github.com/mintyPT/NoCoin
  */
     
 let currentTabId = 0;

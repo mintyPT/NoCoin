@@ -3,7 +3,7 @@
  **
  * @author      Rafael Keramidas <ker.af>
  * @license     MIT
- * @source      https://github.com/keraf/NoCoin
+ * @source      https://github.com/mintyPT/NoCoin
  */
 
 // Config
@@ -177,7 +177,7 @@ if (!config.toggle) {
 }
 
 // Load the blacklist and run the blocker
-const blacklist = 'https://raw.githubusercontent.com/keraf/NoCoin/master/src/blacklist.txt';
+const blacklist = 'https://raw.githubusercontent.com/mintyPT/NoCoin/master/src/blacklist.txt';
 fetch(blacklist)
     .then(resp => {
         if (resp.status !== 200) {
